@@ -1,0 +1,5 @@
+ccflags-y := -Werror
+
+obj-m := nvme.o
+
+nvme-y := nvme-core.o nvme-scsi.o
